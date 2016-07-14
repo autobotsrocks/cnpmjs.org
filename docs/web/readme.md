@@ -6,9 +6,9 @@ Alias NPM to use it:
 
 ```bash
 alias cnpm="npm --registry=https://registry.npm.chelaike.com \
---cache=$HOME/.npm/.cache/cnpm \
---disturl=https://npm.taobao.org/mirrors/node \
---userconfig=$HOME/.cnpmrc"
+                --cache=$HOME/.npm/.cache/cnpm \
+                --disturl=https://npm.taobao.org/mirrors/node \
+                --userconfig=$HOME/.cnpmrc"
 ```
 
 Or alias it in .bashrc or .zshrc
